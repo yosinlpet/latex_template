@@ -1,0 +1,21 @@
+\def\Xint#1{\mathchoice
+   {\XXint\displaystyle\textstyle{#1}}%
+   {\XXint\textstyle\scriptstyle{#1}}%
+   {\XXint\scriptstyle\scriptscriptstyle{#1}}%
+   {\XXint\scriptscriptstyle\scriptscriptstyle{#1}}%
+   \!\int}
+\def\XXint#1#2#3{{\setbox0=\hbox{$#1{#2#3}{\int}$}
+     \vcenter{\hbox{$#2#3$}}\kern-.5\wd0}}
+\def\ddashint{\Xint=}
+\def\dashint{\Xint-}
+
+\newcommand{\bu}{\bm{u}}
+\newcommand{\bn}{\bm{n}}
+\newcommand{\bx}{\bm{x}}
+\newcommand{\by}{\bm{y}}
+
+\newcommand{\kernel}{\bm{K}(\bm{x}-\bm{y})}
+\newcommand{\rotu}[1][u]{\nabla \times \bm{#1}}
+\newcommand{\divu}[1][u]{\nabla \cdot \bm{#1}}
+\newcommand{\rotux}[2][u]{\nabla \times \bm{#1}(\bm{#2})}
+

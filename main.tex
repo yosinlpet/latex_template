@@ -1,0 +1,49 @@
+\documentclass[11pt]{extarticle}
+\usepackage[legalpaper, margin=2cm]{geometry}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{pstricks-add}
+\usepackage{svg}
+
+\input{commands.tex}
+
+\title{Test}
+\author{Denis Dumoulin}
+\begin{document}
+\maketitle
+We first test macros: $\divu = 0$\\
+
+We define the Green's function as the solution of the
+negative Laplace problem:
+\begin{equation}
+  \nabla^2 G(\bx) = \delta(\bx).
+\end{equation}
+
+In two dimensions, the solution is
+\begin{equation}
+  G(\bx) = -\frac{1}{2\pi} \log{|\bx|},
+\end{equation}
+and we define the velocity kernel $\bm{K}$ as
+\begin{equation}
+  \bm{K}(\bx) := \nabla G = -\frac{\bx}{2\pi|\bx|^2}.
+\end{equation}
+
+Here Green's Theorem on a vector field:
+\begin{align}
+  \frac{1}{2} \bu(\bx)= &\int_\mathcal{V}\kernel \times \left(\rotux{y}\right) \mathrm{d} V(\by)\\
+                          &-\dashint_{\mathcal{S}}\left[\kernel\times\left(\bn_y \times \bu(\by)\right)
+                          -\kernel\left(\bn_y \cdot \bu(\by)\right)\right] \mathrm{d} S(\by)
+\end{align}
+Here is a result of Green's Theorem on a uniform vector field:
+\begin{align} \frac{1}{2} \bu=-\dashint_{\mathcal{S}}\left[\kernel{K} \times\left(\bn_y \times \bu\right)
+-\kernel\left(\bn_y \cdot \bu\right)\right] \mathrm{d} S(\by),
+\end{align}
+where $\boldsymbol{n}$ is pointing outward the bounded volume.
+\begin{figure}[!h]
+  \centering
+  \includesvg[inkscapepath=./figures/]{Green}
+  \caption{An internally closed planar volume of fluid at rest at infinity.}
+\end{figure}
+
+\end{document}

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="74.819565mm"
+   height="69.023552mm"
+   viewBox="0 0 74.819563 69.023552"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (1:1.2.1+202207142221+cd75a1ee6d)"
+   sodipodi:docname="Green.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.8116735"
+     inkscape:cx="109.29122"
+     inkscape:cy="135.51007"
+     inkscape:window-width="1510"
+     inkscape:window-height="866"
+     inkscape:window-x="281"
+     inkscape:window-y="45"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#505050" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1L"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow1L"
+       markerWidth="8.75"
+       markerHeight="5"
+       viewBox="0 0 8.75 5"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="arrow1L"
+         transform="scale(-0.5)" />
+    </marker>
+    <clipPath
+       id="clipPath2277">
+      <path
+         d="m 6,3 h 4 V 8.300781 H 6 Z m 0,0"
+         id="path6506" />
+    </clipPath>
+    <clipPath
+       id="clipPath8510">
+      <path
+         d="m 7,4 h 4 V 9.964844 H 7 Z m 0,0"
+         id="path5523" />
+    </clipPath>
+    <clipPath
+       id="clipPath1394">
+      <path
+         d="m 7,4 h 5 v 7.511719 H 7 Z m 0,0"
+         id="path8711" />
+    </clipPath>
+    <clipPath
+       id="clipPath3111">
+      <path
+         d="M 0,0 H 8.523438 V 5.3125 H 0 Z m 0,0"
+         id="path5199" />
+    </clipPath>
+    <clipPath
+       id="clipPath4743">
+      <path
+         d="m 7,4 h 4 V 9.964844 H 7 Z m 0,0"
+         id="path3238" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-35.337113,-13.478354)">
+    <path
+       style="fill:#dadada;stroke:#000000;stroke-width:0.265;stroke-dasharray:none"
+       d="M 54.392584,47.524534 C 73.544714,49.923938 71.153743,32.868547 83.705689,28.142284 101.14286,21.576556 109.85219,37.469545 105.07806,54.232959 99.930966,72.30595 82.810084,82.458313 61.507163,82.36792 21.48096,82.643936 34.620894,44.362179 54.392584,47.524534 Z"
+       id="path340"
+       sodipodi:nodetypes="csscc" />
+    <path
+       style="fill:#dadada;stroke:#000000;stroke-width:0.264583;marker-end:url(#Arrow1L)"
+       d="m 92.657608,26.635037 0.633897,-9.077933"
+       id="path1009" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264999"
+       d="M 49.207551,47.635742 C 49.026113,45.90665 47.461631,46.285561 47.117423,44.305993"
+       id="path570"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;stroke:#000000;stroke-width:0.264999"
+       x="70.112328"
+       y="63.426437"
+       id="text293"><tspan
+         sodipodi:role="line"
+         id="tspan291"
+         style="stroke-width:0.265"
+         x="70.112328"
+         y="63.426437">$\mathcal{V}_b$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;stroke:#000000;stroke-width:0.264999"
+       x="94.017403"
+       y="16.023109"
+       id="text293-35"><tspan
+         sodipodi:role="line"
+         id="tspan291-62"
+         style="stroke-width:0.265"
+         x="94.017403"
+         y="16.023109">$\bm{n}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;stroke:#000000;stroke-width:0.264999"
+       x="45.26231"
+       y="42.15247"
+       id="text293-7"><tspan
+         sodipodi:role="line"
+         id="tspan291-5"
+         style="stroke-width:0.265"
+         x="45.26231"
+         y="42.15247">$\mathcal{S}_b$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:none;stroke:#000000;stroke-width:0.264999"
+       x="57.52515"
+       y="32.579693"
+       id="text293-3"><tspan
+         sodipodi:role="line"
+         id="tspan291-6"
+         style="stroke-width:0.265"
+         x="57.52515"
+         y="32.579693">$\mathcal{V}_f$</tspan></text>
+  </g>
+</svg>
